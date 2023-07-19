@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  line-height: 1.5;
+}
+
+header {
+  font-family: serif;
+  font-size: 2rem;
+}
+
+#img-div {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+#image {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 0%;
+  box-shadow: 5px 6px 2px 2px gray;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#tribute-info {
+  width: 100%;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.container {
+  width: 40vw;
+  margin-left: 30%;
+  text-align: justify;
+}
+
+li {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: fit-content;
+
+}
+
+.years {
+  font-size: 1.6rem;
+  font-weight: 700;
+  pad
+}
+
+.bullets {
+  font-size: 1.6rem;
+}
+
+footer {
+  background-color: rgb(253, 253, 253);
+  font-size: 1.1rem;
+  color: black;
+  height: 25px;
+}
+
+
+a:link,
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  transition: 0.3s ease-out;
+}
+
+a:active {
+  color: navy;
+  background-color: transparent;
+  text-decoration: underline;
+}
